@@ -2,12 +2,11 @@
 
 This repository contains the design and implementation of a Built-In Self-Test (BIST) system for VLSI circuits. The project is structured to guide you through the development process, from understanding the problem to analyzing the final BIST controller design.
 
-![BIST_block_diagram](https://github.com/user-attachments/assets/d995c893-3bee-4a3a-b156-056ac86d2d3d)
-
-
 ### Project Overview
 
 BIST is a crucial technique in VLSI design, allowing circuits to test themselves for faults without external testing hardware. This project explores the creation of a complete BIST solution, including the test pattern generation, output response analysis, and BIST controller design.
+
+![BIST_block_diagram](https://github.com/user-attachments/assets/d995c893-3bee-4a3a-b156-056ac86d2d3d)
 
 ### Table of Contents
 
