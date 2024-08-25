@@ -23,8 +23,4 @@ BIST is a crucial technique in VLSI design, allowing circuits to test themselves
 - **Synthesis Tools**: Synopsys Design Compiler
 - **Version Control**: Git
 
-git add images/BIST_block_diagram.png
-git add README.md
-git commit -m "Added project overview image"
-git push
 
