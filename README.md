@@ -18,6 +18,24 @@ BIST is a crucial technique in VLSI design, allowing circuits to test themselves
 6. **BIST Controller Design**: Comprehensive analysis of the BIST controller, including Verilog code, testbench, and performance analysis.
 7. **Conclusion**: Summary of findings and future work.
 
+#### How BIST Works
+
+The BIST system integrates the following components into the VLSI circuit:
+
+1. **Test Pattern Generator (TPG)**: This module generates a set of predefined test patterns, which are fed into the circuit under test. The patterns are designed to simulate various operational conditions and identify potential faults.
+
+2. **Circuit Under Test (CUT)**: This is the VLSI circuit that is being tested. The CUT receives the test patterns from the TPG and processes them as it would under normal operation.
+
+3. **Output Response Analyzer (ORA)**: After the CUT processes the test patterns, the ORA compares the output of the CUT to the expected correct output. If the outputs match, the circuit is considered fault-free. If they do not, the ORA flags a fault.
+
+4. **BIST Controller**: The BIST controller orchestrates the entire self-testing process. It initiates the test, controls the sequence of operations, and determines when the test is complete. The controller also collects and analyzes the results to provide a final pass/fail status.
+
+#### Advantages of BIST
+
+- **Autonomous Testing**: BIST allows circuits to perform self-testing without external intervention, making it highly useful in environments where external testing is impractical.
+- **Reduced Costs**: By eliminating the need for expensive external testing hardware, BIST can significantly reduce overall testing costs.
+- **Increased Reliability**: Continuous self-testing can help in early detection of faults, thereby increasing the reliability of the VLSI circuit.
+
 ### Tools and Technologies
 
 - **Languages**: Verilog
